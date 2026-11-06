@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370" fill="none" role="img" aria-label="Clean — a lightweight macOS storage cleaner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15171E"/>
+      <stop offset="0.55" stop-color="#0C0D13"/>
+      <stop offset="1" stop-color="#080910"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1100" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="iconFill" x1="502" y1="54" x2="598" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B8CFF"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#C450F0"/>
+    </linearGradient>
+    <linearGradient id="iconGloss" x1="502" y1="54" x2="502" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="titleFill" x1="430" y1="170" x2="670" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9CFE0"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4C7DFF" stop-opacity="0.50"/>
+      <stop offset="1" stop-color="#4C7DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowOrange" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A45" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FF7A45" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card">
+      <rect x="0" y="0" width="1100" height="370" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1100" height="370" fill="url(#bg)"/>
+
+    <circle cx="150" cy="20" r="330" fill="url(#glowBlue)"/>
+    <circle cx="960" cy="60" r="300" fill="url(#glowPurple)"/>
+    <circle cx="620" cy="440" r="320" fill="url(#glowOrange)"/>
+
+    <!-- faint hairline grid -->
+    <g stroke="#FFFFFF" stroke-opacity="0.030">
+      <path d="M0 92.5H1100"/>
+      <path d="M0 184.5H1100"/>
+      <path d="M0 276.5H1100"/>
+      <path d="M275.5 0V370"/>
+      <path d="M550.5 0V370"/>
+      <path d="M825.5 0V370"/>
+    </g>
+  </g>
+
+  <!-- app icon -->
+  <rect x="502" y="54" width="96" height="96" rx="26" fill="url(#iconFill)"/>
+  <rect x="502" y="54" width="96" height="96" rx="26" fill="url(#iconGloss)"/>
+  <rect x="502.75" y="54.75" width="94.5" height="94.5" rx="25.25" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.5"/>
+
+  <!-- sparkle -->
+  <path d="M550 78C553 96 556 99 574 102C556 105 553 108 550 126C547 108 544 105 526 102C544 99 547 96 550 78Z" fill="#FFFFFF"/>
+  <path d="M581 72C582 78 583.5 79.5 589.5 80.5C583.5 81.5 582 83 581 89C580 83 578.5 81.5 572.5 80.5C578.5 79.5 580 78 581 72Z" fill="#FFFFFF" fill-opacity="0.75"/>
+
+  <!-- wordmark -->
+  <text x="550" y="214" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.8" fill="url(#titleFill)">Clean</text>
+  <text x="550" y="250" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="500" fill="#9BA1B0">See where your Mac&#8217;s storage actually goes &#8212; then take it back.</text>
+
+  <!-- chips -->
+  <g>
+    <rect x="370" y="282" width="112" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <circle cx="392" cy="302" r="5" fill="#4C7DFF"/>
+    <text x="408" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6E8EE">App</text>
+  </g>
+  <g>
+    <rect x="494" y="282" width="112" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <circle cx="516" cy="302" r="5" fill="#FF9F45"/>
+    <text x="532" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6E8EE">Cache</text>
+  </g>
+  <g>
+    <rect x="618" y="282" width="112" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <circle cx="640" cy="302" r="5" fill="#A855F7"/>
+    <text x="656" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6E8EE">Data</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1098.5" height="368.5" rx="27.25" stroke="url(#border)" stroke-width="1.5"/>
+</svg>

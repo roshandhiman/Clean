@@ -1,10 +1,3 @@
-//
-//  CleanApp.swift
-//  Clean
-//
-//  Created by Roshanpreet Singh Dhiman on 06/11/26.
-//
-
 import SwiftUI
 
 @main
@@ -13,5 +6,8 @@ struct CleanApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentMinSize)
+        .defaultSize(width: 780, height: 580)
     }
 }
