@@ -1,92 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370" fill="none" role="img" aria-label="Clean — a lightweight macOS storage cleaner">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="370" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#15171E"/>
-      <stop offset="0.55" stop-color="#0C0D13"/>
-      <stop offset="1" stop-color="#080910"/>
-    </linearGradient>
-    <linearGradient id="border" x1="0" y1="0" x2="1100" y2="370" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
-      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
-    </linearGradient>
-    <linearGradient id="iconFill" x1="502" y1="54" x2="598" y2="150" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5B8CFF"/>
-      <stop offset="0.55" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#C450F0"/>
-    </linearGradient>
-    <linearGradient id="iconGloss" x1="502" y1="54" x2="502" y2="150" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/>
-      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="titleFill" x1="430" y1="170" x2="670" y2="220" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#C9CFE0"/>
-    </linearGradient>
-    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#4C7DFF" stop-opacity="0.50"/>
-      <stop offset="1" stop-color="#4C7DFF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#A855F7" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowOrange" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#FF7A45" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#FF7A45" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="card">
-      <rect x="0" y="0" width="1100" height="370" rx="28"/>
-    </clipPath>
-  </defs>
-
-  <g clip-path="url(#card)">
-    <rect width="1100" height="370" fill="url(#bg)"/>
-
-    <circle cx="150" cy="20" r="330" fill="url(#glowBlue)"/>
-    <circle cx="960" cy="60" r="300" fill="url(#glowPurple)"/>
-    <circle cx="620" cy="440" r="320" fill="url(#glowOrange)"/>
-
-    <!-- faint hairline grid -->
-    <g stroke="#FFFFFF" stroke-opacity="0.030">
-      <path d="M0 92.5H1100"/>
-      <path d="M0 184.5H1100"/>
-      <path d="M0 276.5H1100"/>
-      <path d="M275.5 0V370"/>
-      <path d="M550.5 0V370"/>
-      <path d="M825.5 0V370"/>
-    </g>
-  </g>
-
-  <!-- app icon -->
-  <rect x="502" y="54" width="96" height="96" rx="26" fill="url(#iconFill)"/>
-  <rect x="502" y="54" width="96" height="96" rx="26" fill="url(#iconGloss)"/>
-  <rect x="502.75" y="54.75" width="94.5" height="94.5" rx="25.25" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.5"/>
-
-  <!-- sparkle -->
-  <path d="M550 78C553 96 556 99 574 102C556 105 553 108 550 126C547 108 544 105 526 102C544 99 547 96 550 78Z" fill="#FFFFFF"/>
-  <path d="M581 72C582 78 583.5 79.5 589.5 80.5C583.5 81.5 582 83 581 89C580 83 578.5 81.5 572.5 80.5C578.5 79.5 580 78 581 72Z" fill="#FFFFFF" fill-opacity="0.75"/>
-
-  <!-- wordmark -->
-  <text x="550" y="214" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1.8" fill="url(#titleFill)">Clean</text>
-  <text x="550" y="250" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18.5" font-weight="500" fill="#9BA1B0">See where your Mac&#8217;s storage actually goes &#8212; then take it back.</text>
-
-  <!-- chips -->
-  <g>
-    <rect x="370" y="282" width="112" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
-    <circle cx="392" cy="302" r="5" fill="#4C7DFF"/>
-    <text x="408" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6E8EE">App</text>
-  </g>
-  <g>
-    <rect x="494" y="282" width="112" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
-    <circle cx="516" cy="302" r="5" fill="#FF9F45"/>
-    <text x="532" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6E8EE">Cache</text>
-  </g>
-  <g>
-    <rect x="618" y="282" width="112" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
-    <circle cx="640" cy="302" r="5" fill="#A855F7"/>
-    <text x="656" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6E8EE">Data</text>
-  </g>
-
-  <rect x="0.75" y="0.75" width="1098.5" height="368.5" rx="27.25" stroke="url(#border)" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-label="Clean: see and delete app cache and data on your Mac" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowMWEzYWRjYS1iMmVlLTQ1N2EtOGE4NC1iMDc0YWZjMjUxYjYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGdejNSHlrEwpg5IJ516OzAAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiMmQ0YTI4OC0zODJhLTRkZWUtOWIwNy0wYmQ0ODQ1YWYwNzBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo2Da3tth3vcaWQR0vuS1hjwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggJqff7nPcseNnO3ao2Kf/faaqnGEzI4JRsa1C8LtVU+ekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGX2Lxu0zJwq3NZZ8TlQx40AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDgTag/VNcw5SeozqGeIy60ulRbHP3mi8TN35bm4VevMWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjxZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjAxYTNhZGNhLWIyZWUtNDU3YS04YTg0LWIwNzRhZmMyNTFiNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmNhOTZmMWUwLWMwYjMtNDBlMC04OWMxLTZmNTEzNzNiYjU2MHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAmp9/uc9yx42c7dqjYp/99pqqcYTMjglGxrULwu1VT56JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggpWar2FJhhbIsl9VWpwfkvlnVENHNL4MR+vS77y0YoUiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggpbCP2KH/g34ID8jJeR9liO17eiUxv/7LgzOxC07gfEp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCJen4CGHI0C0yMZP0zXi49gwak6Fu9Xm7TK11m/90cfK+02E8uqez2hye2PIaLrkvnscvXRdeENUqukRdwFV0I=</c2pa:manifest></metadata>
+<rect width="1200" height="420" rx="28" fill="#0B0B0F"/>
+<rect x="0.5" y="0.5" width="1199" height="419" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<rect x="70" y="72" width="80" height="80" rx="22" fill="#FFFFFF"/>
+<path d="M110 90C112.4 105 114.8 107.4 129.8 109.8C114.8 112.2 112.4 114.6 110 129.6C107.6 114.6 105.2 112.2 90.2 109.8C105.2 107.4 107.6 105 110 90Z" fill="#0B0B0F"/>
+<path d="M134 84C134.8 89 136 90.2 141 91C136 91.8 134.8 93 134 98C133.2 93 132 91.8 127 91C132 90.2 133.2 89 134 84Z" fill="#0B0B0F"/>
+<text x="66" y="238" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-2.4" fill="#FFFFFF">Clean</text>
+<text x="70" y="284" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#8A8A96">See where your Mac&#8217;s storage actually goes.</text>
+<text x="70" y="311" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#FFFFFF">Then take it back.</text>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">
+<rect x="70" y="344" width="84" height="34" rx="17" fill="#17171D"/><text x="112" y="366" text-anchor="middle">App</text>
+<rect x="164" y="344" width="96" height="34" rx="17" fill="#17171D"/><text x="212" y="366" text-anchor="middle">Cache</text>
+<rect x="270" y="344" width="84" height="34" rx="17" fill="#17171D"/><text x="312" y="366" text-anchor="middle">Data</text>
+</g>
+<rect x="640" y="50" width="500" height="320" rx="24" fill="#101015"/>
+<rect x="640.5" y="50.5" width="499" height="319" rx="23.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
+<circle cx="664" cy="76" r="5.5" fill="#FF5F57"/><circle cx="683" cy="76" r="5.5" fill="#FEBC2E"/><circle cx="702" cy="76" r="5.5" fill="#28C840"/>
+<rect x="900" y="64" width="220" height="26" rx="13" fill="#17171D"/>
+<circle cx="916" cy="76" r="4.5" stroke="#8A8A96" stroke-width="1.5"/><path d="M919.5 79.5L923 83" stroke="#8A8A96" stroke-width="1.5" stroke-linecap="round"/>
+<text x="930" y="81" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8A8A96">Search</text>
+<rect x="660" y="104" width="460" height="64" rx="16" fill="#17171D"/><rect x="674" y="116" width="40" height="40" rx="11" fill="#8FE3B0"/><text x="694" y="143" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#0B0B0F">W</text><text x="728" y="141" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">WhatsApp</text><rect x="896" y="116" width="68" height="40" rx="11" fill="#23232B"/><text x="930" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">APP</text><text x="930" y="147" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">0.5 GB</text><rect x="972" y="116" width="68" height="40" rx="11" fill="#FFFFFF"/><text x="1006" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#000000" fill-opacity="0.55">CACHE</text><text x="1006" y="147" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">41 GB</text><rect x="1048" y="116" width="68" height="40" rx="11" fill="#FFFFFF"/><text x="1082" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#000000" fill-opacity="0.55">DATA</text><text x="1082" y="147" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#000000">16 GB</text><rect x="660" y="176" width="460" height="64" rx="16" fill="#17171D"/><rect x="674" y="188" width="40" height="40" rx="11" fill="#9DBEFF"/><text x="694" y="215" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#0B0B0F">X</text><text x="728" y="213" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Xcode</text><rect x="896" y="188" width="68" height="40" rx="11" fill="#23232B"/><text x="930" y="204" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">APP</text><text x="930" y="219" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">12 GB</text><rect x="972" y="188" width="68" height="40" rx="11" fill="#23232B"/><text x="1006" y="204" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">CACHE</text><text x="1006" y="219" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">9.4 GB</text><rect x="1048" y="188" width="68" height="40" rx="11" fill="#23232B"/><text x="1082" y="204" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">DATA</text><text x="1082" y="219" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">3.1 GB</text><rect x="660" y="248" width="460" height="64" rx="16" fill="#17171D"/><rect x="674" y="260" width="40" height="40" rx="11" fill="#FFC9A3"/><text x="694" y="287" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#0B0B0F">C</text><text x="728" y="285" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Chrome</text><rect x="896" y="260" width="68" height="40" rx="11" fill="#23232B"/><text x="930" y="276" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">APP</text><text x="930" y="291" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">0.6 GB</text><rect x="972" y="260" width="68" height="40" rx="11" fill="#23232B"/><text x="1006" y="276" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">CACHE</text><text x="1006" y="291" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">3.8 GB</text><rect x="1048" y="260" width="68" height="40" rx="11" fill="#23232B"/><text x="1082" y="276" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="500" letter-spacing="0.4" fill="#FFFFFF" fill-opacity="0.45">DATA</text><text x="1082" y="291" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">1.2 GB</text>
+<text x="676" y="353" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">57 GB</text>
+<rect x="1006" y="330" width="114" height="34" rx="17" fill="#FF453A"/>
+<path d="M1030 342.5H1042M1033 342.5V340.5H1039V342.5M1031.5 342.5L1032.3 352H1039.7L1040.5 342.5" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1054" y="352" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Delete</text>
 </svg>
